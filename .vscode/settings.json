@@ -1,0 +1,25 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 12,
+    "workbench.colorTheme": "Default High Contrast",
+    "editor.insertSpaces": false,
+    "git.autofetch": true,
+    "editor.rulers": [99],
+    "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+    },
+    "python.linting.enable": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args":[
+    " -max-line-length=99"
+    ],
+
+    "cSpell.words": [
+        "asaba",
+        "mult",
+        "ozoro",
+        "portharcourt",
+        "warri"
+    ]
+}
