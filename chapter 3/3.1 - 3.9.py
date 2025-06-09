@@ -19,7 +19,10 @@ print("/////")
 # 3.3
 modes = ["boat", "ferry", "airplane", "taxi"]
 print(
-    f"If you are a traveler you need to consider various means, let say you just taking a city tour try considering {modes[3]} otherwise {modes[0]} if there are canals, but if let say river {modes[1]} should be the best option. lastly wanna travel through continent then try {modes[2]}."
+    "If you are a traveler you need to consider various means, let say you just taking a "
+    f"city tour try considering {modes[3]} otherwise {modes[0]} if there are canals,"
+    f" but if let say river {modes[1]} should be the best option."
+    f" lastly wanna travel through continent then try {modes[2]}."
 )
 
 print("/////")
