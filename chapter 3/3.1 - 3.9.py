@@ -40,7 +40,8 @@ print("/////")
 
 # 3.5
 print(
-    f"\nSome people won`t be making it to the meeting the names are {invitees[1]} and {invitees[2]}"
+    "\nSome people won`t be making it to the meeting the names are "
+    f"{invitees[1]} and {invitees[2]}"
 )
 invitees[1] = "Mary"
 invitees[2] = "Rico"
@@ -55,7 +56,8 @@ print("/////")
 
 # 3.6
 print(
-    "We are moving the dinner meeting to a new location which can accommodate more people so the guest list is going to increase"
+    "We are moving the dinner meeting to a new location which can accommodate"
+    " more people so the guest list is going to increase"
 )
 print("we would be inviting 3 new more guest")
 new_invite_list = invitees.copy()
@@ -64,28 +66,36 @@ new_invite_list.insert(3, "Ryan")
 new_invite_list.insert(7, "Prince")
 
 print(
-    f"Mr {new_invite_list[0]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[0]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mr {new_invite_list[1]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[1]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mrs {new_invite_list[2]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mrs {new_invite_list[2]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mr {new_invite_list[3]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[3]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mr {new_invite_list[4]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[4]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mrs {new_invite_list[5]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mrs {new_invite_list[5]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mr {new_invite_list[6]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[6]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 print(
-    f"Mr {new_invite_list[7]} you have been invited to a dinner with some honorable board members, we would love to see you attend"
+    f"Mr {new_invite_list[7]} you have been invited to a dinner with some honorable "
+    "board members, we would love to see you attend"
 )
 
 print("/////")

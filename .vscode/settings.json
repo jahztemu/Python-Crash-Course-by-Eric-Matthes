@@ -13,9 +13,11 @@
   "python.linting.flake8Args": ["--max-line-length=99"],
   "cSpell.words": [
     "asaba",
+    "kwale",
     "mult",
+    "numa",
     "ozoro",
     "portharcourt",
     "warri"
-  ]
+]
 }

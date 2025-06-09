@@ -1,42 +1,36 @@
-#4.10
-city = [
-    'london','lagos','abuja',
-    'tokyo','rabat','ozoro',
-    'kwale','kaduna','jos']
+# 4.10
+city = ["london", "lagos", "abuja", "tokyo", "rabat", "ozoro", "kwale", "kaduna", "jos"]
 for cities in city[:3]:
     print(cities.title())
 
-print('-----')
+print("-----")
 
 for cities in city[3:6]:
-     print(cities.title())
+    print(cities.title())
 
-print('-----')
+print("-----")
 
 for cities in city[6:]:
     print(cities.title())
 
-print('/////')
+print("/////")
 
-#4.11
-foods = [ 
-    'Rice', 'salad',
-    'Fries', 'fish']
+# 4.11
+foods = ["Rice", "salad", "Fries", "fish"]
 friend_food = foods[:]
 
-foods.append('pizza')
-friend_food.append('snacks')
+foods.append("pizza")
+friend_food.append("snacks")
 
-print('example of foods are:')
+print("example of foods are:")
 for xx in foods:
     print(xx.title())
 
 
+print("-----")
 
-print('-----')
-
-print('Exampl of food friends eat')
+print("Example of food friends eat")
 for xx in friend_food:
     print(xx.title())
 
-#4.12
+# 4.12
