@@ -4,7 +4,7 @@ for xx in food:
     print(xx.title())
 
 # food.append('salad')
-print("-----")
+
 
 food = (
     "tea",
