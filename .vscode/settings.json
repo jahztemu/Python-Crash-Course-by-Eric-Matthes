@@ -19,5 +19,6 @@
     "ozoro",
     "portharcourt",
     "warri"
-]
+],
+"python.analysis.autoImportCompletions": true
 }
