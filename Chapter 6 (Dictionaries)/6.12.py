@@ -30,11 +30,11 @@ vehicle = {
     },
 }
 
-object = [tree, vehicle]
+objects = [tree, vehicle]
 
 print("All data save")
-for stuff in object:
+for stuff in objects:
     for key, value in stuff.items():
         print(f"\n{key.title()}:")
-        for key, value in value.items():
-            print(f"\t{key.title()};\n\t {value}")
+        for keys, values in value.items():
+            print(f"\t{keys.title()};\n\t {values}")

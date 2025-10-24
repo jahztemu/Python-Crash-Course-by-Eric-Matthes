@@ -5,9 +5,9 @@ print(condition)
 print("/////")
 
 # 2.2
-condition = "Can drive in visible area"
+conditions = "Can drive in visible area"
 condition = "Drive only in approve areas"
-print(condition)
+print(conditions)
 
 print("/////")
 
@@ -49,7 +49,7 @@ print(famous_person.strip())
 
 print("/////")
 # 2.8
-print(3 + 4**2 - 11 / 2 * 2)
+print(3 + 4 ** 2 - 11 / 2 * 2)
 
 print("/////")
 
