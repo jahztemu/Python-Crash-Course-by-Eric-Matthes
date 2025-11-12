@@ -45,7 +45,7 @@ print(
 )
 invitees[1] = "Mary"
 invitees[2] = "Rico"
-print(f"I would like {invitees[0]} to be present in the meeting")
+print(f"I would love {invitees[0]} to be present in the meeting")
 print(f"Also {invitees[1]} should also be present")
 print("\nVIP list")
 print(f"A special invite to {invitees[2]}")
