@@ -73,3 +73,71 @@ users.increment_login_attempts(1)
 
 users.reset_login_attempts()
 users.increment_login_attempts(0)
+
+print("\n")  # 9.6
+
+
+class ice_cream_stand(restaurant):
+    """modeling a cafe"""
+
+    def __init__(self, restaurant_name, *cuisine_type):
+        """inheriting from main class"""
+        super().__init__(restaurant_name, *cuisine_type)
+        self.flavors = ["vanilla", "strawberry", "chocolate", "banana"]
+
+    def get_flavour(self):
+        print("The following flavors are available")
+        for value in self.flavors:
+            print(f" -{value.title()}")
+
+
+cafe = ice_cream_stand("Lizzy Pastry", "ice cream", "cake", "cookie")
+cafe.describe_restaurant()
+cafe.get_flavour()
+
+print("\n")  # 9.7
+
+
+class admin(user):
+    """description of admin"""
+
+    def __init__(self, first_name, last_name, location, age):
+        super().__init__(first_name, last_name, location, age)
+        self.privileges = ["can add post", "can delete post", "can ban user"]
+        self.privilege = privilege()
+
+    def show_privileges(self):
+        print("The following privileges are available")
+        for value in self.privileges:
+            print(f" -{value.title()}")
+
+
+# details = admin("Peter", "smith", "london", 43)
+# details.show_privileges()
+
+
+print("\n")  # 9.8
+
+
+class privilege:
+    """describe privileges"""
+
+    def __init__(self, *privilege):
+        self.privilege = [
+            "can add post",
+            "can delete post",
+            "can ban user",
+            "can add user",
+            "can remove user",
+            "can edit post",
+        ]
+
+    def show_privileges(self):
+        print("The following privileges are available")
+        for value in self.privilege:
+            print(f" -{value.title()}")
+
+
+details = admin("john", "smith", "london", 30)
+details.show_privileges()
+details.privilege.show_privileges()
