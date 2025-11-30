@@ -1,6 +1,5 @@
 {
-  "editor.fontSize": 12,
-  "workbench.colorTheme": "Default High Contrast",
+  "editor.fontSize": 11,
   "editor.insertSpaces": false,
   "git.autofetch": true,
   "editor.rulers": [
