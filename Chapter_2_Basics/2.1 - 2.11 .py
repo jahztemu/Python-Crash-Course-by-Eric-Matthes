@@ -49,7 +49,7 @@ print(famous_person.strip())
 
 print("/////")
 # 2.8
-print(3 + 4 ** 2 - 11 / 2 * 2)
+print(3 + 4**2 - 11 / 2 * 2)
 
 print("/////")
 
