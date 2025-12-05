@@ -1,0 +1,5 @@
+In Python you can use variables to store pieces of information.
+In Python you can use lists to keep collections of items in order.
+In Python you can use dictionaries to connect related pieces of information.
+In Python you can use loops to repeat actions efficiently.
+In Python you can use if statements to make decisions in your programs.
