@@ -24,15 +24,21 @@ def get_new_user():
 
 
 def greet_user():
+    """greet user"""
     username = get_user_info()
-	answer = input('Is you name {user}yes or no')
-	response = answer.lower()
-	if response == 'yes':
-		print('Welcome back {} let kick off where we stopped')
-	elif response == 'no':
-		username = get_new_user()
-		print(f"We'll remember you when you come back, {username}!")
-	else:
-		print('Invalid input')
+    if username:
+        answer = input(f"Is your name {username} yes or no: ")
+        response = answer.lower()
+        if response == "yes":
+            print(f"Welcome back {username} let kick off where we stopped")
+        elif response == "no":
+            username = get_new_user()
+            print("We'll remember you when you come back!")
+        else:
+            print("Invalid input")
+    else:
+        username = get_new_user()
+        print("We'll remember you when you come back!")
+
 
 greet_user()
